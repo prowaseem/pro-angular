@@ -1,4 +1,4 @@
-# pro-angular
+# Pro Angular
 Admin dashboard developed upon angular
 
 

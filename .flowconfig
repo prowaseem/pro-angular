@@ -1,0 +1,11 @@
+[ignore]
+.*/e2e/.*
+
+[include]
+src
+
+[libs]
+
+[lints]
+
+[options]
