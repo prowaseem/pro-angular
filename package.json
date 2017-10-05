@@ -91,6 +91,7 @@
     "url-loader": "^0.5.7",
     "webpack": "~3.5.5",
     "webpack-bundle-analyzer": "^2.9.0",
+    "webpack-bundle-size-analyzer": "^2.7.0",
     "webpack-concat-plugin": "1.4.0",
     "webpack-dev-server": "~2.7.1"
   }

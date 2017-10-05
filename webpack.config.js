@@ -14,6 +14,10 @@ const { InsertConcatAssetsWebpackPlugin, NamedLazyChunksWebpackPlugin, BaseHrefW
 const { CommonsChunkPlugin } = require('webpack').optimize;
 const { AotPlugin } = require('@ngtools/webpack');
 
+//custom files
+var WebpackBundleSizeAnalyzerPlugin = require('webpack-bundle-size-analyzer').WebpackBundleSizeAnalyzerPlugin;
+var BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+
 const nodeModules = path.join(process.cwd(), 'node_modules');
 const realNodeModules = fs.realpathSync(nodeModules);
 const genDirNodeModules = path.join(process.cwd(), 'src', '$$_gendir', 'node_modules');
@@ -472,7 +476,9 @@ module.exports = {
       "exclude": [],
       "tsConfigPath": "src\\tsconfig.app.json",
       "skipCodeGeneration": true
-    })
+    }),
+    new WebpackBundleSizeAnalyzerPlugin('./reports/plain-report.txt'),
+    new BundleAnalyzerPlugin()
   ],
   "node": {
     "fs": "empty",

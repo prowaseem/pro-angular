@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import * as jquery from 'jquery';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +10,7 @@ export class AppComponent {
   title = 'app';
 
   constructor() {
+console.log($);
     // console.log(jQuery());
     // console.log(jquery);
   }
