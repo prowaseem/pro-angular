@@ -369,7 +369,7 @@ module.exports = {
       "name": "scripts",
       "fileName": "[name].bundle.js",
       "filesToConcat": [
-        "node_modules\\jquery\\dist\\jquery.slim.js"
+        "node_modules/jquery/dist/jquery.slim.js"
       ]
     }),
     new InsertConcatAssetsWebpackPlugin([
