@@ -84,14 +84,14 @@ module.exports = {
   },
   "entry": {
     "main": [
-      "./src\\main.ts"
+      "./src/main.ts"
     ],
     "polyfills": [
-      "./src\\polyfills.ts"
+      "./src/polyfills.ts"
     ],
     "styles": [
       "./node_modules\\bootstrap\\scss\\bootstrap.scss",
-      "./src\\styles.scss"
+      "./src/styles.scss"
     ]
   },
   "output": {
