@@ -1,6 +1,7 @@
+[![Build Status](https://travis-ci.org/theprowaseem/pro-angular.svg?branch=master)](https://travis-ci.org/theprowaseem/pro-angular)
+
 # Pro Angular
 Admin dashboard developed upon angular
-[![Build Status](https://travis-ci.org/theprowaseem/pro-angular.svg?branch=master)](https://travis-ci.org/theprowaseem/pro-angular)
 
 ## Development server
 
