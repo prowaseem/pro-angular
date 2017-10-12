@@ -1,4 +1,9 @@
+
+<p align="center">
 [![Build Status](https://travis-ci.org/theprowaseem/pro-angular.svg?branch=master)](https://travis-ci.org/theprowaseem/pro-angular)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+</p>
+
 
 # Pro Angular
 Admin dashboard developed upon angular
