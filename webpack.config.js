@@ -90,7 +90,7 @@ module.exports = {
       "./src/polyfills.ts"
     ],
     "styles": [
-      "./node_modules\\bootstrap\\scss\\bootstrap.scss",
+      "./node_modules/bootstrap/scss/bootstrap.scss",
       "./src/styles.scss"
     ]
   },
