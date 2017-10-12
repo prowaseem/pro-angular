@@ -1,6 +1,13 @@
-[![Build Status](https://travis-ci.org/theprowaseem/pro-angular.svg?branch=master)](https://travis-ci.org/theprowaseem/pro-angular)
+<p align="center">
+  <a href="https://travis-ci.org/theprowaseem/pro-angular">
+    <img src="https://travis-ci.org/theprowaseem/pro-angular.svg?branch=master" alt="Build Status"/>
+  </a>
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  <a href="https://opensource.org/licenses/Apache-2.0">
+    <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"/>
+  </a>
+</p>
+
 
 # Pro Angular
 Admin dashboard developed upon angular
