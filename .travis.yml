@@ -22,7 +22,6 @@ before_script:
 - npm install -g karma
 - npm install -g node-sass
 - npm install
-- npm run build:prod
 
 script: npm run test
 
@@ -31,8 +30,3 @@ deploy:
   api_key:
     secure: "e01ce2a9-5c8c-468a-916f-b7b7579b4083"
   app: pro-angular-staging
-
-after_deploy:
-- git add .
-- git commit -m "updating dist"
-- git push origin master
