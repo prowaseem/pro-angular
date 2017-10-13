@@ -5,6 +5,9 @@
   <a href="https://opensource.org/licenses/Apache-2.0">
     <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"/>
   </a>
+  <a href="https://badge.fury.io/js/pro-angular">
+    <img src="https://badge.fury.io/js/pro-angular.svg" alt="npm version" height="18">
+  </a>
 </p>
 
 
