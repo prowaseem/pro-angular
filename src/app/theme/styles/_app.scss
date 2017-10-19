@@ -1,7 +1,5 @@
-@import "fonts";
-html,body{
-  font-size: 100%;
-  padding: 0;
-  margin: 0;
-  font-weight: 400;
+.bs{
+  @import "variables";
+  @import "~bootstrap/scss/bootstrap";
 }
+@import "fonts";
