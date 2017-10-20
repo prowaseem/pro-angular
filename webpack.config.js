@@ -90,7 +90,6 @@ module.exports = {
       "./src/polyfills.ts"
     ],
     "styles": [
-      "./node_modules/bootstrap/scss/bootstrap.scss",
       "./src/styles.scss"
     ]
   },
@@ -369,7 +368,9 @@ module.exports = {
       "name": "scripts",
       "fileName": "[name].bundle.js",
       "filesToConcat": [
-        "node_modules/jquery/dist/jquery.slim.js"
+        "node_modules/jquery/dist/jquery.slim.js",
+        "node_modules/popper.js/dist/umd/popper.js",
+        "node_modules/bootstrap/dist/js/bootstrap.js",
       ]
     }),
     new InsertConcatAssetsWebpackPlugin([

@@ -1,8 +1,12 @@
-.bs{
-  @import "variables";
-  @import "~bootstrap/scss/bootstrap";
-}
-.mt{
-  @import "variables";
-}
 @import "fonts";
+@import "icons";
+html, body{
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+}
+.blue{
+  &.navbar{
+    
+  }
+}
