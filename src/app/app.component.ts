@@ -15,13 +15,13 @@ export class AppComponent implements OnInit{
   constructor(
     private application: ApplicationService
   ) {
-    this.application.applicationTitle = 'My App';
+    this.application.applicationTitle = 'Pro Angular';
     this.application.themeClasses = 'blue-theme';
   }
 
   ngOnInit(){
     this.theme = this.application.themeClasses;
     this.application.logoImage = 'http://via.placeholder.com/50x50';
-    this.application.logoHasImage = true;
+    this.application.logoHasImage = false;
   }
 }
