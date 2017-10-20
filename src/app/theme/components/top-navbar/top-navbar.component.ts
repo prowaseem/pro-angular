@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ApplicationService } from '../../services/application.service';
 
 @Component({
   selector: 'pro-top-navbar',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopNavbarComponent implements OnInit {
 
-  constructor() { }
+  public title: string;
+  constructor(
+    private application: ApplicationService
+  ) { }
 
   ngOnInit() {
+    this.title = this.application.applicationTitle;
   }
 
 }

@@ -1,16 +1,27 @@
-import { Component } from '@angular/core';
-import * as jquery from 'jquery';
+import { Component, OnInit } from '@angular/core';
+
+/*Theme Services*/
+import { ApplicationService } from './theme/services/application.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'app';
+export class AppComponent implements OnInit{
 
-  constructor() {
-    // console.log(jQuery());
-    // console.log(jquery);
+  public theme: string;
+
+  constructor(
+    private application: ApplicationService
+  ) {
+    this.application.applicationTitle = 'My App';
+    this.application.themeClasses = 'blue-theme';
+  }
+
+  ngOnInit(){
+    this.theme = this.application.themeClasses;
+    this.application.logoImage = 'http://via.placeholder.com/50x50';
+    this.application.logoHasImage = true;
   }
 }
