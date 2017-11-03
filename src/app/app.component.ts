@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 /*Theme Services*/
-import { ApplicationService } from './theme/services/application.service';
+//import { ApplicationService } from './theme/services/application.service';
 
 @Component({
   selector: 'app-root',
@@ -10,18 +10,19 @@ import { ApplicationService } from './theme/services/application.service';
 })
 export class AppComponent implements OnInit{
 
-  public theme: string;
+  //public theme: string;
 
-  constructor(
+  constructor(){}
+  /*constructor(
     private application: ApplicationService
   ) {
     this.application.applicationTitle = 'Pro Angular';
     this.application.themeClasses = 'blue-theme';
-  }
+  }*/
 
   ngOnInit(){
-    this.theme = this.application.themeClasses;
+    /*this.theme = this.application.themeClasses;
     this.application.logoImage = 'http://via.placeholder.com/50x50';
-    this.application.logoHasImage = false;
+    this.application.logoHasImage = false;*/
   }
 }
