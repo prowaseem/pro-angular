@@ -1,11 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-// theme
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+// modules
 import { ThemeModule } from './theme/theme.module';
 
 
-// app components
+// components
 import { AppComponent } from './app.component';
 
 
@@ -16,7 +17,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    // theme
+    // theme modules
     ThemeModule,
   ],
   providers: [],
