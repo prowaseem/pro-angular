@@ -21,7 +21,9 @@
     "test": "karma start ./karma.conf.js --single-run",
     "lint": "ng lint --type-check",
     "e2e": "protractor ./protractor.conf.js",
-    "pree2e": "webdriver-manager update --standalone false --gecko false --quiet"
+    "pree2e": "webdriver-manager update --standalone false --gecko false --quiet",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "engines": {
     "node": "~6.x",
@@ -51,11 +53,12 @@
     "bootstrap": "^4.0.0-beta",
     "core-js": "^2.4.1",
     "express": "^4.16.2",
-    "jquery": "^3.2.1",
+    "jquery": "^3.5.0",
     "ngx-bootstrap": "^1.9.3",
     "node-sass": "^4.5.3",
     "rxjs": "^5.4.2",
-    "zone.js": "^0.8.14"
+    "zone.js": "^0.8.14",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@angular/cli": "1.4.6",
@@ -104,5 +107,6 @@
     "webpack-bundle-size-analyzer": "^2.7.0",
     "webpack-concat-plugin": "1.4.1",
     "webpack-dev-server": "~2.9.1"
-  }
+  },
+  "snyk": true
 }
