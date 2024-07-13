@@ -136,9 +136,10 @@
   dependencies:
     tslib "^1.7.1"
 
-"@angular/language-service@^4.2.4":
-  version "4.4.4"
-  resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-4.4.4.tgz#0f686052e3950c19128f13b7429fc14bafe69bd4"
+"@angular/language-service@^4.4.6":
+  version "4.4.7"
+  resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-4.4.7.tgz#45dea0935c132095a0fdc4610b007f1f57b8fbea"
+  integrity sha512-wUTH1+B1L/bcROduWH/asEpTwx3myQXueqfA5S+JCtR58PZD/OCjnY3rIzei2oxb8MIprhFV0xGl4r8v7fSmDw==
 
 "@angular/material@^2.0.0-beta.12":
   version "2.0.0-beta.12"
@@ -772,9 +773,10 @@ boom@5.x.x:
   dependencies:
     hoek "4.x.x"
 
-bootstrap@^4.0.0-beta:
-  version "4.0.0-beta"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.0.0-beta.tgz#dc5928175d2e71310bc668cf9e05a907211b72a6"
+bootstrap@^5.0.0:
+  version "5.3.3"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.3.3.tgz#de35e1a765c897ac940021900fcbb831602bac38"
+  integrity sha512-8HLCdWgyoMguSO9o+aH+iuZ+aht+mzW0u3HIMzVu7Srrpv7EBBxTnrFlSCskwdY1+EOFQSm7uMJhNQHkdPcmjg==
 
 brace-expansion@^1.1.7:
   version "1.1.8"
